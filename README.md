@@ -103,7 +103,7 @@ composer require zhuxiaojin/weather
 }
 ```
 ### 获取xml格式数据
- $response = $weather->getWeather('深圳', 'base','xml');
+    $response = $weather->getWeather('深圳', 'base','xml');
 
 ## 示例
 ``` 
@@ -161,7 +161,7 @@ composer require zhuxiaojin/weather
     }
 ```
 ### 参考
-* [高德天气挨批接口](https://lbs.amap.com/api/webservice/guide/api/weatherinfo/)
+* [高德天气API接口](https://lbs.amap.com/api/webservice/guide/api/weatherinfo/)
 
 ### LICENSE
 
